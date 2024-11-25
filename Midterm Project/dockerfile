@@ -1,0 +1,18 @@
+# Usar una imagen base de Python
+FROM python:3.12-slim
+
+# Establecer el directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copiar los archivos del proyecto al contenedor
+COPY . .
+
+# Instalar dependencias
+RUN pip install --no-cache-dir pipenv && \
+    pipenv install --system --deploy --ignore-pipfile
+
+# Exponer el puerto 5000 para Flask
+EXPOSE 5000
+
+# Comando para ejecutar la aplicación Flask
+CMD ["python", "predict.py"]

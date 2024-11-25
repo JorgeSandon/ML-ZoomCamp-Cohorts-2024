@@ -1,0 +1,8 @@
+# Ignorar archivos y directorios no necesarios
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+.env
+*.log
+data/*.zip

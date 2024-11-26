@@ -97,3 +97,8 @@ project/
 ├── Pipfile.lock      # Dependency lockfile
 └── README.md         # Project documentation
 ```
+
+## Deployment imagen
+
+![image](https://github.com/user-attachments/assets/12e1312b-8adc-4325-896b-a1793026ffd8)
+

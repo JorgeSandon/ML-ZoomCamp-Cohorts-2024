@@ -88,6 +88,8 @@ notebooks/
     └── notebook.ipynb       # Jupyter notebook for exploratory data analysis
 templates/
     └── index.html           # HTML template for the web interface
+video/
+    └── test video.mp4       # demonstration of the application in action
 app.py                       # Main Flask application
 train.py                     # Script for training the model
 Pipfile                      # Pipenv configuration file
@@ -133,7 +135,7 @@ deployment.yaml              # Kubernetes Deployment configuration
 
 A short demonstration of the application in action:
 
-<video src="video\test video.mp4" controls width="100%"></video>
+[![Demo Video](https://img.youtube.com/vi/0RSbwsOCfHc/0.jpg)](https://youtu.be/0RSbwsOCfHc)
 
 ---
 

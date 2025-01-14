@@ -1,0 +1,4 @@
+# Ignorar imágenes y datos
+data/test/
+data/train/
+data/val/

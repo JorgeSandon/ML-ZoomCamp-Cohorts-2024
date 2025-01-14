@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chest-xray-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chest-xray
+  template:
+    metadata:
+      labels:
+        app: chest-xray
+    spec:
+      containers:
+      - name: chest-xray-container
+        image: jsandon/chest-x-ray:latest 
+        ports:
+        - containerPort: 5000
+
